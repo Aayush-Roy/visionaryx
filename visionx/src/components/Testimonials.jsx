@@ -1,5 +1,5 @@
 import { cardsData } from "../utils/testimonialsCardData";
-import '../../public/styles/companies.css';
+
 export const Testimonials = () => {
  
     const CreateCard = ({ card }) => (
@@ -35,7 +35,18 @@ export const Testimonials = () => {
     return (
         <>
             <style>{`
-           
+            @keyframes marqueeScroll {
+                0% { transform: translateX(0%); }
+                100% { transform: translateX(-50%); }
+            }
+
+            .marquee-inner {
+                animation: marqueeScroll 25s linear infinite;
+            }
+
+            .marquee-reverse {
+                animation-direction: reverse;
+            }
         `}</style>
 
             <div className="marquee-row w-full mx-auto max-w-5xl overflow-hidden relative">
