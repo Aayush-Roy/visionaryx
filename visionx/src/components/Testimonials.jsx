@@ -33,6 +33,7 @@ export const Testimonials = () => {
     );
 
     return (
+        // just for tesing 
         <>
             <style>{`
             @keyframes marqueeScroll {
