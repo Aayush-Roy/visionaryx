@@ -90,7 +90,7 @@ const Navbar = () => {
             {link.name}
           </a>
         ))}
-
+        {/* fixed some bugs */}
         <button className="bg-black text-yellow-400 px-6 py-2 rounded-full hover:bg-gray-800 transition-all duration-300">
           Login
         </button>
