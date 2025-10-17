@@ -46,7 +46,7 @@ const About = () => {
         initial={{ opacity: 0, x: 50 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
-        className="text-sm sm:text-base text-gray-300 w-full max-w-lg"
+        className="text-sm sm:text-base text-gray-600 w-full max-w-lg"
       >
         <h1 className="text-2xl md:text-3xl uppercase font-semibold text-[#FFC400]">
           What We Do

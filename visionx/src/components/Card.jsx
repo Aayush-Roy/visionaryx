@@ -3,9 +3,11 @@ import React from "react";
 const Card = () => {
   return (
     <div className="py-12 px-6 md:px-12 lg:px-20 bg-black text-white">
-      <h1 className="text-3xl font-semibold text-center mx-auto">Latest Blog</h1>
+      <h1 className="text-3xl font-semibold text-center mx-auto">
+        Latest Travel Stories
+      </h1>
       <p className="text-sm text-slate-400 text-center mt-2 max-w-lg mx-auto">
-        Stay ahead of the curve with fresh content on code, design, startups, and everything in between.
+        Discover breathtaking destinations, travel tips, and hidden gems from around the world.
       </p>
 
       <div className="flex flex-wrap items-center justify-center gap-8 pt-12">
@@ -13,39 +15,45 @@ const Card = () => {
         <div className="max-w-72 w-full hover:-translate-y-1 transition duration-500 cursor-pointer">
           <img
             className="rounded-xl"
-            src="https://images.unsplash.com/photo-1590650516494-0c8e4a4dd67e?w=1200&h=800&auto=format&fit=crop&q=60"
-            alt="Color Psychology in UI"
+            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&h=800&auto=format&fit=crop&q=60"
+            alt="Maldives Getaway"
           />
           <h3 className="text-base text-white font-medium mt-3">
-            Color Psychology in UI: How to Choose the Right Palette
+            Escape to the Maldives: A Paradise Beyond Imagination
           </h3>
-          <p className="text-xs text-[#FFC400] font-medium mt-1">UI/UX Design</p>
+          <p className="text-xs text-[#FFC400] font-medium mt-1">
+            Tropical Getaway
+          </p>
         </div>
 
         {/* Card 2 */}
         <div className="max-w-72 w-full hover:-translate-y-1 transition duration-500 cursor-pointer">
           <img
             className="rounded-xl"
-            src="https://images.unsplash.com/photo-1714974528646-ea024a3db7a7?w=1200&h=800&auto=format&fit=crop&q=60"
-            alt="Design Principles"
+            src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?w=1200&h=800&auto=format&fit=crop&q=60"
+            alt="Swiss Alps Adventure"
           />
           <h3 className="text-base text-white font-medium mt-3">
-            Mastering Visual Hierarchy: The Art of UI Balance
+            Conquer the Swiss Alps: Adventure for Every Soul
           </h3>
-          <p className="text-xs text-[#FFC400] font-medium mt-1">UI/UX Design</p>
+          <p className="text-xs text-[#FFC400] font-medium mt-1">
+            Mountain Adventure
+          </p>
         </div>
 
         {/* Card 3 */}
         <div className="max-w-72 w-full hover:-translate-y-1 transition duration-500 cursor-pointer">
           <img
             className="rounded-xl"
-            src="https://images.unsplash.com/photo-1713947501966-34897f21162e?w=1200&h=800&auto=format&fit=crop&q=60"
-            alt="Design Trends"
+            src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=1200&h=800&auto=format&fit=crop&q=60"
+            alt="Tokyo Nights"
           />
           <h3 className="text-base text-white font-medium mt-3">
-            Minimalist Design: Simplify Interfaces for Impact
+            Tokyo Nights: Exploring Japan’s Vibrant Capital
           </h3>
-          <p className="text-xs text-[#FFC400] font-medium mt-1">Product Design</p>
+          <p className="text-xs text-[#FFC400] font-medium mt-1">
+            City Exploration
+          </p>
         </div>
       </div>
     </div>

@@ -1,22 +1,22 @@
 export const faqsData = [
-        {
-            question: 'Lightning-Fast Performance',
-            answer: 'Built with speed — minimal load times and optimized rendering.'
-        },
-        {
-            question: 'Fully Customizable Components',
-            answer: 'Easily adjust styles, structure, and behavior to match your project needs.'
-        },
-        {
-            question: 'Responsive by Default',
-            answer: 'Every component are responsive by default — no extra CSS required.'
-        },
-        {
-            question: 'Tailwind CSS Powered',
-            answer: 'Built using Tailwind utility classes — no extra CSS or frameworks required.'
-        },
-        {
-            question: 'Dark Mode Support',
-            answer: 'All components come ready with light and dark theme support out of the box.'
-        }
-    ]
+  {
+    question: 'What makes VisionayX different from other travel agencies?',
+    answer: 'At VisionayX, we craft personalized travel experiences tailored to your preferences, ensuring every trip feels unique and unforgettable.'
+  },
+  {
+    question: 'Do you offer customized travel packages?',
+    answer: 'Absolutely! From solo adventures to family vacations, VisionayX offers fully customizable itineraries to match your budget and interests.'
+  },
+  {
+    question: 'Is my booking safe with VisionayX?',
+    answer: 'Yes, all bookings made through VisionayX are 100% secure and verified. We partner with trusted airlines, hotels, and tour operators worldwide.'
+  },
+  {
+    question: 'Does VisionayX provide international travel support?',
+    answer: 'We provide both domestic and international travel services — including visa assistance, flight booking, accommodation, and local guides.'
+  },
+  {
+    question: 'Can I get 24/7 customer support while traveling?',
+    answer: 'Yes! VisionayX offers round-the-clock customer assistance so you can travel worry-free, knowing help is just a call or message away.'
+  }
+];
