@@ -1,20 +1,16 @@
 export default function Footer() {
     return (
         <>
-            <style>{`
-                @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
             
-                * {
-                    font-family: 'Poppins', sans-serif;
-                }
-            `}</style>
             
             <footer className="px-6 md:px-16 lg:px-24 xl:px-32 w-full text-sm text-slate-500 bg-white pt-10">
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14">
                     <div className="sm:col-span-2 lg:col-span-1">
-                        <a href="https://prebuiltui.com">
-                           
-                        </a>
+                       <img
+          src="/images/logo2.png"
+          alt="VisionaryX Logo"
+          className="w-24 sm:w-28 md:w-32 lg:w-36 h-auto object-contain"
+        />
                         <p className="text-sm/7 mt-6">VisionaryX helps you build faster by transforming your business and
           travel goals into reality with innovative strategies and seamless
           execution.</p>

@@ -1,43 +1,5 @@
 
-// // import './App.css'
-// import About from './components/About'
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import  Card  from './components/Card'
-// import { Companies } from './components/Companies'
-// import { FAQ } from './components/FAQ'
-// import Features from './components/Features'
-// import Footer from './components/Footer'
-// import Hero from './components/Hero'
-// import  Navbar  from './components/Navbar'
-// import Pricing from './components/Pricing'
-// import {Testimonials} from './components/Testimonials'
-// import InquiryForm from './components/ContactForm';
-// import AboutUs from './components/pages/AboutUs';
-// import Cards from './components/TravelListings/TravelCards';
-
-// function App() {
-
-
-//   return (
-//    <>
-//    <Navbar/>
-//    <Hero/>
-//    <About/>
-//    <Card/>
-//    <FAQ/>
-//    <Testimonials/>
-//    <Features/>
-
-//    <InquiryForm/>
-//    <AboutUs/>
-
-//    <Footer/>
-//    </>
-//   )
-// }
-
-// export default App
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Form } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -82,13 +44,13 @@ function App() {
 
         {/* ℹ️ About Page */}
         <Route path="/about" element={<AboutUs />} />
+         <Route path="/gallery" element={<Gallery />} />
 
         {/* 🏝️ Travel Listings */}
         <Route path="/listings" element={<Cards />} />
 
         {/* 📞 Contact Page */}
-        <Route path="/contact" element={<InquiryForm />} />
-         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<InquiryForm/>} />
 
         {/* 404 - Page Not Found */}
         <Route
